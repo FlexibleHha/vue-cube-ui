@@ -43,6 +43,7 @@ module.exports = {
       })
     }
   },
+  // 配置别名
   chainWebpack (config) {
     config.resolve.alias
       .set('components', resolve('src/components'))
